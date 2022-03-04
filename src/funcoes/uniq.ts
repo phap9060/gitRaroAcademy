@@ -7,6 +7,13 @@
  * 
  * @returns somente os itens definidos.
  */
-export const uniq = <T>(args: T[]): T[] => {
-  return null;
+ export const uniq = (args: number[]) => {
+  let uniqueChars:number[]= [];
+  args.forEach((c) => {
+      if (!uniqueChars.includes(c)) {
+      uniqueChars.push(c);
+      }
+  });
+  return uniqueChars
+
 };
