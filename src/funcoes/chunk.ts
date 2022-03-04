@@ -24,5 +24,5 @@
       }
    })
 
-   return result
+   return result;
 };
