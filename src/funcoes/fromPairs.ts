@@ -13,5 +13,5 @@ import { KeyAndValue } from "../../types/keyAndValue";
   args.map(arr=>{
     result[arr[0]] = arr[1]
   })
-  return result
+  return result;
 };
